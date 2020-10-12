@@ -1,0 +1,2163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/122112d09d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google-fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom-css -->
+    <style type="text/css">
+      *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: normal;
+}
+
+.header-text{
+    font-weight: 600;
+    font-size: small;
+}
+
+.search-btn{
+    background: linear-gradient(#fe8b84, #fe635a);
+    border-color: #fe5f55;
+
+}
+
+.red-border{
+    border-color: #fe5f55;
+}
+
+.dropdown .btn{
+    padding-top: 30px;
+}
+
+.navbar{
+    background: linear-gradient(#fe8982,#fe6359);
+    font-size:14px;
+}
+
+.auction-btn{
+    background: linear-gradient(#fe8b84, #fe635a);
+    border-radius: 10px;
+}
+
+.card{
+    font-size: 15px;
+}
+
+.card-name{
+    font-weight: 600;
+}
+
+.card-description{
+    font-weight: lighter;
+}
+
+.card-price{
+    font-weight: medium;
+}
+
+.reddish{
+    color:#fe5f55;
+}
+
+.time{
+    font-size: 12px;
+}
+
+.price{
+    font-size: 14px;
+}
+
+.flash-sale-time{
+    background: linear-gradient(#fe8b84, #fe635a);
+    color:white;
+}
+
+.btn-outline-danger:hover{
+    background: linear-gradient(#fe8b84, #fe635a);
+}
+
+.cta{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.watch-img{
+    width: 200px;
+    margin-left:100px;
+}
+
+.featured-brands{
+    margin-bottom:100px;
+}
+
+.btn-send{
+    color: red;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.fa-arrow-circle-left{
+    color:#fe5f55;
+}
+
+.fa-arrow-circle-right{
+    color: #fe5f55;
+}
+
+.live-auction{
+    margin-top:60px;
+    margin-bottom: 100px;
+}
+
+.latest-products{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.featured-products{
+    margin-top:150px;
+    margin-bottom: 80px;
+}
+
+.ad{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.ad-text{
+    padding-right:200px;
+}
+
+.newspaper{
+    background: white;
+    margin-top:-10px;
+    border-radius: 10px;
+    padding:20px;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.newspaper-field{
+    border: none;
+    width: 400px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    margin-left:20px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #6d7985;
+}
+
+.footer{
+    background:#495867;
+    color: white;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+
+.footer-desc{
+    font-size:12px;
+}
+
+.red-underline{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #fe5f55;
+}
+
+.copyright{
+    background: #495867;
+}
+
+.grey-line{
+    background: #7d868f;
+    padding:1px;
+}
+
+.flash-sale .row .col-12 .carousel .carousel-item .w-custom-50{
+  width: 50% !important;
+}
+
+.flash-sale .row .col-12 .carousel .carousel-item .w-custom-75{
+  width: 75% !important;
+}
+
+.flash-sale .row .col-12 .carousel .carousel-item .w-customS-75{
+      width: 75% !important;
+}
+
+@media(max-width:768px){
+    .footer{
+        padding-bottom: 50px;
+    }
+    
+    .form{
+        padding-left:18%;
+        padding-right: 18%;
+    }
+
+    .flash-sale .row .col-12 .carousel .carousel-item .w-custom-50{
+      width: 25% !important;
+    }
+
+    .flash-sale .row .col-12 .carousel .carousel-item .w-custom-75{
+      width: 50% !important;
+    }
+
+    .flash-sale .row .col-12 .carousel .carousel-item .w-customS-75{
+      width: 25% !important;
+    }
+}
+
+@media(max-width:576px){
+    .watch-img{
+        margin-left:10px;
+    }
+
+    .ad-text{
+        padding-right:10px;
+    }
+
+    .newspaper-field{
+        width: 250px;
+        padding: 10px 0px;
+        margin: 5px 0;
+    }
+
+    .form{
+        padding-left:10px;
+        padding-right: 10px;
+    }
+}
+    </style>
+
+    <title>J-level | Home Page</title>
+  </head>
+  <body>
+    <!-- header -->
+    <section class="container d-none d-lg-block">
+      <div class="row m-0 p-0 d-none d-lg-flex">
+        <div class="col-2">
+          <div class="icons">
+            <div class="row">
+              <div class="col-2">
+                <a href="#" class="text-dark"
+                  ><i class="fab fa-facebook-f mx-2"></i
+                ></a>
+              </div>
+              <div class="col-2">
+                <a href="#" class="text-dark"
+                  ><i class="fab fa-twitter mx-2"></i
+                ></a>
+              </div>
+              <div class="col-2">
+                <a href="#" class="text-dark"
+                  ><i class="fab fa-instagram mx-2"></i
+                ></a>
+              </div>
+              <div class="col-2">
+                <a href="#" class="text-dark"
+                  ><i class="fab fa-whatsapp mx-2"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle pt-0"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              English
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Hindi</a>
+              <a class="dropdown-item" href="#">French</a>
+              <a class="dropdown-item" href="#">Chinese</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle pt-0"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fas fa-dollar-sign mr-2"></i>USD
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">INR</a>
+              <a class="dropdown-item" href="#">EUR</a>
+              <a class="dropdown-item" href="#">YEN</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="d-flex ml-auto">
+            <div class="mr-2"><i class="fas fa-bullhorn"></i></div>
+            <div>
+              <p><a href="#" class="text-dark">Post an AD</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="d-flex">
+            <div class="mr-2"><i class="far fa-heart"></i></div>
+            <div>
+              <p><a href="#" class="text-dark">Wishlist</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="d-flex">
+            <div class="mr-2"><i class="far fa-user"></i></div>
+            <div>
+              <p><a href="#" class="text-dark">Login / Register</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- search-bar -->
+
+      <div class="search-bar">
+        <div class="row justify-content-center justify-content-lg-start">
+          <div class="col-12 col-lg-2">
+            <div class="d-flex justify-content-center mt-4">
+              <div class="mr-2">
+                <img src="imgs/logo.png" class="w-100" alt="logo" />
+              </div>
+              <div>
+                <h1 class="logo">Level</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 text-center">
+            <p class="font-weight-bold mb-1">Search & Buy from Local Sellers</p>
+            <p class="header-text mb-2">
+              Post Products for free, Sell faster by live streaming your auction
+              to Nigerians
+            </p>
+            <form>
+              <div class="row align-items-center mb-3">
+                <div class="col-5 mr-n5">
+                  <label class="sr-only" for="inlineFormInput">search</label>
+                  <input
+                    type="text"
+                    class="form-control mb-2 pr-5 red-border"
+                    id="inlineFormInput"
+                    placeholder="Search for everything..."
+                  />
+                </div>
+                <div class="col-3 pr-0">
+                  <label class="sr-only" for="inlineFormInput">location</label>
+                  <input
+                    type="text"
+                    class="form-control mb-2 red-border"
+                    id="inlineFormInput"
+                    placeholder="Location in Nigeria"
+                  />
+                </div>
+                <div class="col-2 px-0">
+                  <div class="dropdown">
+                    <button
+                      class="btn dropdown-toggle pt-2 pb-1 mb-2 red-border"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      All Categories
+                    </button>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a class="dropdown-item" href="#">Car</a>
+                      <a class="dropdown-item" href="#">Guitar</a>
+                      <a class="dropdown-item" href="#">Toys</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <button type="submit" class="btn btn-primary search-btn mb-2">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </section>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand d-block d-lg-none" href="#">
+        <div class="d-flex justify-content-center">
+          <div class="mr-2">
+            <img src="imgs/logo.png" class="w-100" alt="logo" />
+          </div>
+          <div>
+            <h1 class="logo">Level</h1>
+          </div>
+        </div>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="#"
+              >Auction <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="#">Agriculture</a>
+          </li>
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="#">Community</a>
+          </li>
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="#">For Sale</a>
+          </li>
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="#">For Free</a>
+          </li>
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="#">Sell On jLEVEL</a>
+          </li>
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="#">Jobs & Services</a>
+          </li>
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="#">Motor</a>
+          </li>
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="#">Property</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- search-bar-for-tablet-and-mobile -->
+
+    <section class="container d-block d-lg-none">
+      <div class="search-bar">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-2">
+            <div class="d-flex justify-content-center mt-4">
+              <div class="mr-2">
+                <img src="imgs/logo.png" class="w-100" alt="logo" />
+              </div>
+              <div>
+                <h1 class="logo">Level</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 text-center">
+            <p class="header-search mb-1">Search & Buy from Local Sellers</p>
+            <p class="header-text mb-2">
+              Post Products for free, Sell faster by live streaming your auction
+              to Nigerians
+            </p>
+            <form>
+              <div class="row align-items-center mb-3">
+                <div class="col-12 col-sm-6 col-lg-auto mr-lg-n5 mr-0">
+                  <label class="sr-only" for="inlineFormInput">search</label>
+                  <input
+                    type="text"
+                    class="form-control mb-2 pr-5 red-border"
+                    id="inlineFormInput"
+                    placeholder="Search for everything..."
+                  />
+                </div>
+                <div class="col-12 col-sm-6 col-lg-auto pr-3 pr-lg-0">
+                  <label class="sr-only" for="inlineFormInput">location</label>
+                  <input
+                    type="text"
+                    class="form-control mb-2 red-border"
+                    id="inlineFormInput"
+                    placeholder="Location in Nigeria"
+                  />
+                </div>
+                <div class="col-6 col-lg-auto px-0">
+                  <div class="dropdown text-left ml-3 ml-lg-0">
+                    <button
+                      class="btn dropdown-toggle pt-2 pb-1 mb-2 red-border"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      All Categories
+                    </button>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a class="dropdown-item" href="#">Car</a>
+                      <a class="dropdown-item" href="#">Guitar</a>
+                      <a class="dropdown-item" href="#">Toys</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-auto">
+                  <button
+                    type="submit"
+                    class="btn btn-primary search-btn mb-2 w-100"
+                  >
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </section>
+
+    <!-- live-auction-section -->
+
+    <section class="container live-auction text-center">
+      <div class="row">
+        <div class="col-12 mb-3">
+          <div class="row">
+            <div class="col-sm-8 col-lg-7 text-left mb-n5">
+              <h2>Live Auction</h2>
+            </div>
+            <div class="col-sm-4 col-lg-2 mt-2 text-right">
+              <p class="mb-0">
+                <a href="#" class="text-dark"
+                  >See All<i class="fas fa-arrow-right ml-2"></i
+                ></a>
+              </p>
+            </div>
+            <div class="d-none d-lg-block col-lg-3 auction-btn">
+              <a href="#" class="btn w-100 text-white mt-1"
+                >Upcoming Live Auction</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-9">
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-lg-3 p-1 p-lg-0">
+              <a href="#" class="text-dark">
+                <div
+                  class="card mx-auto w-100 w-lg-100 border-0"
+                  style="width: 18rem"
+                >
+                  <img
+                    class="card-img-top w-25"
+                    src="imgs/live.jpg"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-top w-25 w-lg-75 mx-auto my-lg-4"
+                    src="imgs/watch.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text card-name mb-1">Mauris at gravida</p>
+                    <p class="card-text card-description mb-1">
+                      Suscipit dui sed ut
+                    </p>
+                    <p class="card-text card-price">
+                      Starting Price:
+                      <span class="price reddish"> $40,000</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 p-1 p-lg-0">
+              <a href="#" class="text-dark">
+                <div
+                  class="card w-100 w-lg-100 mx-auto border-0"
+                  style="width: 18rem"
+                >
+                  <img
+                    class="card-img-top w-25"
+                    src="imgs/live.jpg"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-top w-50 w-lg-75 mx-auto m-o my-lg-4"
+                    src="imgs/bike.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text card-name mb-1">
+                      Aenean lacinia ligula
+                    </p>
+                    <p class="card-text card-description mb-1">
+                      Suscipit dui sed ut
+                    </p>
+                    <p class="card-text card-price">
+                      Starting Price: <span class="reddish"> $40,000</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 p-1 p-lg-0">
+              <a href="#" class="text-dark">
+                <div
+                  class="card w-100 w-lg-100 mx-auto border-0"
+                  style="width: 18rem"
+                >
+                  <img
+                    class="card-img-top w-25"
+                    src="imgs/live.jpg"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-top w-75 mx-auto mt-3 mb-2 my-lg-4"
+                    src="imgs/car.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text card-name mb-1">Quisque id ligula a</p>
+                    <p class="card-text card-description mb-1">
+                      Suscipit dui sed ut
+                    </p>
+                    <p class="card-text card-price">
+                      Starting Price: <span class="reddish"> $40,000</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 p-1 p-lg-0">
+              <a href="#" class="text-dark">
+                <div
+                  class="card w-100 w-lg-100 mx-auto border-0"
+                  style="width: 18rem"
+                >
+                  <img
+                    class="card-img-top w-25"
+                    src="imgs/live.jpg"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-top w-50 w-lg-75 mx-auto my-0 my-lg-3"
+                    src="imgs/guitar.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text card-name mb-1">Donec lacinia ligula</p>
+                    <p class="card-text card-description mb-1">
+                      Suscipit dui sed ut
+                    </p>
+                    <p class="card-text card-price">
+                      Starting Price: <span class="reddish"> $40,000</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 text-left mt-5 mt-lg-0 px-5 px-lg-0">
+          <div class="d-block d-lg-none auction-btn mb-5 mb-lg-0">
+            <a href="#" class="btn w-100 text-white">Upcoming Live Auction</a>
+          </div>
+          <a href="#" class="text-dark">
+            <div class="row mb-5">
+              <div class="col-3">
+                <img src="imgs/ring.jpg" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex">
+                  <div>
+                    <p class="reddish time mb-0">2d 12:43:12 to go</p>
+                  </div>
+                  <div class="ml-auto">
+                    <i class="far fa-bell reddish"></i>
+                  </div>
+                </div>
+                <p class="desc mb-0">Etiam Nec Velorci Tortor</p>
+                <p class="price mb-0">Starting Price: $40,000</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="text-dark">
+            <div class="row mb-5">
+              <div class="col-3">
+                <img src="imgs/shoe.jpg" alt="" class="mt-2" />
+              </div>
+              <div class="col-9">
+                <d class="d-flex">
+                  <div>
+                    <p class="reddish time mb-0">2d 12:43:12 to go</p>
+                  </div>
+                  <div class="ml-auto">
+                    <i class="far fa-bell reddish"></i>
+                  </div>
+                </d>
+                <p class="desc mb-0">Congue Neque Eon Elit</p>
+                <p class="price mb-0">Starting Price: $40,000</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="text-dark">
+            <div class="row mb-5 mx-auto">
+              <div class="col-3">
+                <img src="imgs/candle.jpg" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex">
+                  <div>
+                    <p class="reddish time mb-0">2d 12:43:12 to go</p>
+                  </div>
+                  <div class="ml-auto mr-n2">
+                    <i class="far fa-bell reddish mr-n1"></i>
+                  </div>
+                </div>
+                <p class="desc mb-0">Donec Velorci</p>
+                <p class="price mb-0">Starting Price: $40,000</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- flash-sale-section -->
+
+    <section class="container flash-sale">
+      <div class="row">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-8 col-lg-3">
+              <h2 class="mt-n2">Flash Sale</h2>
+            </div>
+            <div class="col-12 col-lg-7 order-2 order-lg-1 mt-3 mt-sm-0">
+              <p>
+                Ending in <span class="flash-sale-time p-2">06</span> :
+                <span class="flash-sale-time p-2">31</span> :
+                <span class="p-2 flash-sale-time">42</span>
+              </p>
+            </div>
+            <div class="col-4 col-lg-2 text-right order-1 order-lg-2">
+              <p class="mb-0">
+                <a href="#" class="text-dark"
+                  >See All<i class="fas fa-arrow-right ml-2"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-25"
+                          src="imgs/20-percent-btn.jpg"
+                          alt="Card image cap"
+                        />
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/leather-watch.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Men's Watch Leather Watch
+                          </p>
+                          <p class="card-text card-description mb-1">
+                            <s>$50,000</s>
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            Starting Price:
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 d-none d-sm-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-25"
+                          src="imgs/20-percent-btn.jpg"
+                          alt="Card image cap"
+                        />
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/white-shoe.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Sparx Canvas Shoes
+                          </p>
+                          <p class="card-text card-description mb-1">
+                            <s>$50,000</s>
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            Starting Price:
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 d-none d-lg-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-25"
+                          src="imgs/20-percent-btn.jpg"
+                          alt="Card image cap"
+                        />
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/sunglasses.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Sunglasses - Unisex
+                          </p>
+                          <p class="card-text card-description mb-1">
+                            <s>$50,000</s>
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            Starting Price:
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 d-none d-lg-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-25"
+                          src="imgs/20-percent-btn.jpg"
+                          alt="Card image cap"
+                        />
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/bangles.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Women's Diamond Bracelet
+                          </p>
+                          <p class="card-text card-description mb-1">
+                            <s>$50,000</s>
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            Starting Price:
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-25"
+                          src="imgs/20-percent-btn.jpg"
+                          alt="Card image cap"
+                        />
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/leather-watch.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Men's Watch Leather Watch
+                          </p>
+                          <p class="card-text card-description mb-1">
+                            <s>$50,000</s>
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            Starting Price:
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 d-none d-sm-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-25"
+                          src="imgs/20-percent-btn.jpg"
+                          alt="Card image cap"
+                        />
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/white-shoe.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Sparx Canvas Shoes
+                          </p>
+                          <p class="card-text card-description mb-1">
+                            <s>$50,000</s>
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            Starting Price:
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 d-none d-lg-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-25"
+                          src="imgs/20-percent-btn.jpg"
+                          alt="Card image cap"
+                        />
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/sunglasses.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Sunglasses - Unisex
+                          </p>
+                          <p class="card-text card-description mb-1">
+                            <s>$50,000</s>
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            Starting Price:
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 d-none d-lg-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-25"
+                          src="imgs/20-percent-btn.jpg"
+                          alt="Card image cap"
+                        />
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/bangles.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Women's Diamond Bracelet
+                          </p>
+                          <p class="card-text card-description mb-1">
+                            <s>$50,000</s>
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            Starting Price:
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <i class="fas fa-arrow-circle-left fa-3x reddish"></i>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <i class="fas fa-arrow-circle-right fa-3x reddish"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- latest-products-section -->
+
+    <section class="container latest-products">
+      <div class="row">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-8 col-lg-3 mt-1">
+              <h2 class="mt-n2">Latest Products</h2>
+            </div>
+            <div
+              class="col-12 col-lg-7 order-2 order-sm-1 mt-3 mt-sm-0 d-none d-sm-block"
+            >
+              <div class="d-block d-sm-flex mb-sm-n5 m-0">
+                <div class="mb-2 mb-sm-0">
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger btn-sm mx-1"
+                  >
+                    Fashion
+                  </button>
+                </div>
+                <div class="mb-2 mb-sm-0">
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger btn-sm mx-1"
+                  >
+                    Electronics
+                  </button>
+                </div>
+                <div class="mb-2 mb-sm-0">
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger btn-sm mx-1"
+                  >
+                    Appliances
+                  </button>
+                </div>
+                <div class="mb-2 mb-sm-0">
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger btn-sm mx-1"
+                  >
+                    Power Tools
+                  </button>
+                </div>
+                <div class="mb-2 mb-sm-0">
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger btn-sm mx-1"
+                  >
+                    Automotive
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-4 ml-auto m-0 text-right order-1 order-sm-2 my-auto"
+            >
+              <p class="my-2 mb-lg-0">
+                <a href="#" class="text-dark"
+                  >See All<i class="fas fa-arrow-right ml-2"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <div
+            id="carouselExampleControlsAnother"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-75 mx-auto  "
+                          src="imgs/speaker.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Wireless Speaker
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 d-none d-sm-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/juicer.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1 juicer">
+                            Sencor SSJ Juicer
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 d-none d-lg-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/handsfree.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Wireless Earbuds
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 d-none d-lg-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/adidas-shoe.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Adidas Women Shoes
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-12 d-none d-lg-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/speaker.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Wireless Speaker
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 d-none d-lg-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/juicer.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1 juicer">
+                            Sencor SSJ Juicer
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 d-none d-sm-block col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/handsfree.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Wireless Earbuds
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="#" class="text-dark">
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          class="card-img-top w-75 mx-auto"
+                          src="imgs/adidas-shoe.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text card-name mb-1">
+                            Adidas Women Shoes
+                          </p>
+                          <p class="card-text card-price mb-1">
+                            <span class="reddish"> $40,000</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleControlsAnother"
+              role="button"
+              data-slide="prev"
+            >
+              <i class="fas fa-arrow-circle-left fa-3x reddish"></i>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControlsAnother"
+              role="button"
+              data-slide="next"
+            >
+              <i class="fas fa-arrow-circle-right fa-3x reddish"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- popular-categories-section -->
+
+    <section class="">
+      <div class="row m-0 p-0">
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+              <div class="col-8 mt-1">
+                <h2 class="mt-n2">Popular Categories</h2>
+              </div>
+              <div class="col-4 text-right my-auto">
+                <p class="mb-0">
+                  <a href="#" class="text-dark"
+                    >See All<i class="fas fa-arrow-right ml-2"></i
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="carouselExampleSlidesOnlyAnotherLarge"
+          class="carousel slide"
+          data-ride="carousel"
+          data-interval="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row text-center justify-content-center">
+                <div class="col-6 col-sm-3 col-lg-2">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/bicycle.jpg"
+                      alt="First slide"
+                    />
+                    <p>Bicycle</p>
+                  </a>
+                </div>
+                <div class="col-6 col-sm-3 col-lg-2">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/white-car.jpg"
+                      alt="First slide"
+                    />
+                    <p>Car</p>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-sm-block">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/smartphone.jpg"
+                      alt="First slide"
+                    />
+                    <p>Smartphone</p>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-sm-block">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/laptop.jpg"
+                      alt="First slide"
+                    />
+                    <p>Laptop</p>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-none d-lg-block">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/fridge.jpg"
+                      alt="First slide"
+                    />
+                    <p>Appliances</p>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-none d-lg-block">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/gym.jpg"
+                      alt="First slide"
+                    />
+                    <p>Exercise & Fitness</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row text-center">
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-sm-block">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/bicycle.jpg"
+                      alt="First slide"
+                    />
+                    <p>Bicycle</p>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-sm-block">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/white-car.jpg"
+                      alt="First slide"
+                    />
+                    <p>Car</p>
+                  </a>
+                </div>
+                <div class="col-6 col-sm-3 col-lg-2">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/smartphone.jpg"
+                      alt="First slide"
+                    />
+                    <p>Smartphone</p>
+                  </a>
+                </div>
+                <div class="col-6 col-sm-3 col-lg-2">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/laptop.jpg"
+                      alt="First slide"
+                    />
+                    <p>Laptop</p>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-none d-lg-block">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/fridge.jpg"
+                      alt="First slide"
+                    />
+                    <p>Appliances</p>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 d-none d-lg-block">
+                  <a href="#" class="text-dark">
+                    <img
+                      class="d-block w-100 mx-auto"
+                      src="imgs/gym.jpg"
+                      alt="First slide"
+                    />
+                    <p>Exercise & Fitness</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleSlidesOnlyAnotherLarge"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleSlidesOnlyAnotherLarge"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <div
+          id="carouselExampleSlidesOnlyAnotherLarge"
+          class="carousel slide d-none"
+          data-ride="carousel"
+          data-interval="2000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active"></div>
+            <div class="carousel-item"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cta-section -->
+
+    <section class="container cta">
+      <div class="row">
+        <div class="col-sm-12 col-lg-7">
+          <div class="d-flex mb-5 align-items-center">
+            <div>
+              <a href="#" class="text-dark">
+                <p class="reddish">Brand Promotion</p>
+                <h3>Get 35% off on all kitchen appliances</h3>
+                <p>Nunc finibus ornare euismod dolor a sapien.</p>
+                <p>Shop Now <i class="fas fa-arrow-right ml-2"></i></p>
+              </a>
+            </div>
+            <div>
+              <a href="#" class="text-dark">
+                <img src="imgs/toaster.jpg" class="w-100" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="d-flex text-right align-items-center">
+            <div>
+              <a href="#" class="text-dark">
+                <img src="imgs/big-bicycle.jpg" class="w-100" alt="" />
+              </a>
+            </div>
+            <div>
+              <a href="#" class="text-dark">
+                <p class="reddish">Brand Promotion</p>
+                <h3>Focus Fat Tires Electric Bicycle 15% off</h3>
+                <p>Etiam placerat turpis acdesi sem gravida tristi que.</p>
+                <p>Shop Now <i class="fas fa-arrow-right ml-2"></i></p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-5 mt-5 mt-sm-0">
+          <div class="row">
+            <div class="d-flex">
+              <div>
+                <a href="#" class="text-dark">
+                  <img src="imgs/black-watch.jpg" class="watch-img" alt="" />
+                </a>
+              </div>
+              <div class="my-auto ml-n5 pr-3 pr-0">
+                <a href="#" class="text-dark">
+                  <p class="reddish">Clearance Sale</p>
+                  <h3>ASUS ZenWatch 2 35% off.</h3>
+                  <p>
+                    Morbi nisl magna as rutrum congue eleifend sedei porta at
+                    neque. Pellen tesque id bibendum velit.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">
+            Shop Now <i class="fas fa-arrow-right ml-2"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- featured-brands-section -->
+
+    <section class="featured-brands">
+      <div>
+        <h2 class="text-center mb-4">Featured Brands</h2>
+      </div>
+      <div>
+        <div
+          id="carouselExampleControlsLogo"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row py-3 align-items-center">
+                <div class="col-6 col-sm-3 col-lg-2">
+                  <img
+                    src="imgs/honda-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6 col-sm-3 col-lg-2">
+                  <img
+                    src="imgs/samsung-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-sm-block">
+                  <img
+                    src="imgs/apple-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-sm-block">
+                  <img
+                    src="imgs/lg-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-lg-block">
+                  <img
+                    src="imgs/hitachi-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-lg-block">
+                  <img
+                    src="imgs/yamaha-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row py-3 justify-content-center align-items-center">
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-lg-block">
+                  <img
+                    src="imgs/honda-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-lg-block">
+                  <img
+                    src="imgs/samsung-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6 col-sm-3 col-lg-2">
+                  <img
+                    src="imgs/honda-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+                <div class="col-6 col-sm-3 col-lg-2">
+                  <img
+                    src="imgs/samsung-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-sm-block">
+                  <img
+                    src="imgs/apple-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 col-sm-3 col-lg-2 d-none d-sm-block">
+                  <img
+                    src="imgs/lg-logo.jpg"
+                    class="w-75 d-block mx-auto"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControlsLogo"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControlsLogo"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- featured-products-section -->
+
+    <section class="container featured-products">
+      <div class="row mb-3">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-8 mt-1">
+              <h2 class="mt-n2">Featured Products</h2>
+            </div>
+            <div class="col-4 text-right align-self-center">
+              <p class="mb-0">
+                <a href="#" class="text-dark"
+                  >See All<i class="fas fa-arrow-right ml-2"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-between align-items-center text-center">
+        <div class="col-12 col-sm-6 col-lg-2">
+          <a href="#" class="text-dark">
+            <div class="card border-0 w-100 h-100" style="width: 18rem">
+              <img
+                class="card-img-top w-50 mx-auto"
+                src="imgs/football.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body mt-2">
+                <p class="card-text card-name mb-1">Football</p>
+                <p class="card-text card-price mb-1">
+                  <span class="reddish"> $40,000</span>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <a href="#" class="text-dark">
+            <div class="card border-0 w-100" style="width: 18rem">
+              <img
+                class="card-img-top w-50 mx-auto"
+                src="imgs/cleaner.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body mt-4">
+                <p class="card-text card-name mb-1 juicer">Vacuum cleaner</p>
+                <p class="card-text card-price mb-1">
+                  <span class="reddish"> $40,000</span>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <a href="#" class="text-dark">
+            <div class="card border-0 w-100" style="width: 18rem">
+              <img
+                class="card-img-top w-25 w-lg-50 mx-auto"
+                src="imgs/washing-machine.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text card-name mb-1">LG Washing Machine</p>
+                <p class="card-text card-price mb-1">
+                  <span class="reddish"> $40,000</span>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <a href="#" class="text-dark">
+            <div class="card border-0 w-100" style="width: 18rem">
+              <img
+                class="card-img-top w-50 w-lg-75 mx-auto"
+                src="imgs/dirt-bike.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body mt-1">
+                <p class="card-text card-name mb-1">Kawasaki KX250F</p>
+                <p class="card-text card-price mb-1">
+                  <span class="reddish"> $40,000</span>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <a href="#" class="text-dark">
+            <div
+              class="card border-0 w-100 d-none d-lg-block"
+              style="width: 18rem"
+            >
+              <img
+                class="card-img-top w-75 mx-auto"
+                src="imgs/running-shoe.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body mt-3">
+                <p class="card-text card-name mb-1">Men's Running Shoes</p>
+                <p class="card-text card-price mb-1">
+                  <span class="reddish"> $40,000</span>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="row d-none d-lg-flex justify-content-between align-items-center text-center"
+      >
+        <div class="col-2">
+          <a href="#" class="text-dark">
+            <div class="card border-0 w-100 h-100" style="width: 18rem">
+              <img
+                class="card-img-top w-50 mx-auto"
+                src="imgs/dish-washer.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text card-name mb-1">Haier Dishwaher</p>
+                <p class="card-text card-price mb-1">
+                  <span class="reddish"> $40,000</span>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="#" class="text-dark">
+            <div class="card border-0 w-100" style="width: 18rem">
+              <img
+                class="card-img-top w-50 mx-auto"
+                src="imgs/drone.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body mt-4">
+                <p class="card-text card-name mb-1 juicer">Mavic Pro</p>
+                <p class="card-text card-price mb-1">
+                  <span class="reddish"> $40,000</span>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="#" class="text-dark">
+            <div class="card border-0 w-100" style="width: 18rem">
+              <img
+                class="card-img-top w-50 mx-auto"
+                src="imgs/4-wheel-bike.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body mt-4">
+                <p class="card-text card-name mb-1">Kawasaki Quad Bike</p>
+                <p class="card-text card-price mb-1">
+                  <span class="reddish"> $40,000</span>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="#" class="text-dark">
+            <div class="card border-0 w-100" style="width: 18rem">
+              <img
+                class="card-img-top w-50 mx-auto"
+                src="imgs/metal-watch.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body mt">
+                <p class="card-text card-name mb-1">Invicta Men's Watch</p>
+                <p class="card-text card-price mb-1">
+                  <span class="reddish"> $40,000</span>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="#" class="text-dark">
+            <div class="card border-0 w-100" style="width: 18rem">
+              <img
+                class="card-img-top w-50 mx-auto"
+                src="imgs/scooty.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text card-name mb-1">Yamaha Aerox Scooter</p>
+                <p class="card-text card-price mb-1">
+                  <span class="reddish"> $40,000</span>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- support-section -->
+
+    <section class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="mr-3 mr-sm-3 my-auto">
+              <img src="imgs/delivery.jpg" class="mx-auto" alt="" />
+            </div>
+            <div>
+              <h6 class="mb-1">FREE DELIVERY</h6>
+              <p class="mb-0">To all orders over $100</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="mr-4 ml-2 ml-sm-0 mr-sm-3">
+              <img src="imgs/return.jpg" class="mx-auto" alt="" />
+            </div>
+            <div class="">
+              <h6 class="mb-1">RETURNS & EXCHANGES</h6>
+              <p class="mb-0">Complete warranty</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-sm-0">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="mr-3 ml-n2 ml-sm-0 mr-sm-3">
+              <img src="imgs/support.jpg" class="mx-auto" alt="" />
+            </div>
+            <div>
+              <h6 class="mb-1">TECHNICAL SUPPORT</h6>
+              <p class="mb-0">Service support 24/7</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-sm-0">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="mr-4 ml-3 ml-sm-0 mr-sm-3">
+              <img src="imgs/gift.jpg" class="mx-auto" alt="" />
+            </div>
+            <div>
+              <h6 class="mb-1">DAILY GIFT VOUCHERS</h6>
+              <p class="mb-0">Shopping noe is more fun</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- advertisement-section -->
+
+    <section class="container ad">
+      <div class="d-flex align-items-center mx-auto">
+        <div class="ad-text">
+          <h2 class="mb-5">
+            Get <span class="reddish">Exclusive Vouchers </span>&
+            <span class="reddish">Better deals</span> by shopping through out
+            mobile app.
+          </h2>
+          <p>Download From:</p>
+          <div class="d-flex">
+            <div>
+              <img src="imgs/google-play-btn.jpg" class="w-75" alt="" />
+            </div>
+            <div>
+              <img src="imgs/app-store-btn.jpg" class="w-75" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="d-none d-sm-block">
+          <img src="imgs/phone.jpg" class="w-100" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container position-absolute newspaper">
+      <div class="d-sm-block d-lg-flex">
+        <div class="ml-sm-0 ml-lg-5 text-center text-lg-left">
+          <h3>NEWSLETTER</h3>
+          <p>Be the first to know about the latest news, sales and more!</p>
+        </div>
+
+        <form class="form">
+          <div class="d-flex">
+            <div>
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="newspaper-field ml-sm-0 ml-lg-5"
+              />
+            </div>
+            <div>
+              <button type="submit" class="btn">
+                <i class="fab fa-telegram-plane btn-send mt-3"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-4">
+            <div class="d-flex mt-4">
+              <div class="mr-2">
+                <img src="imgs/logo.png" class="w-75" alt="logo" />
+              </div>
+              <div class="my-auto ml-n3">
+                <h2 class="logo">Level</h2>
+              </div>
+            </div>
+            <div class="footer-desc mt-3">
+              <p>
+                Lorem ipsum dolor sit amet conse ctetur adipi scing elit. Mauris
+                cond imen tum venenatis des nibh sed ultricies morbi nunc eget.
+              </p>
+            </div>
+            <div class="footer-desc">
+              <div class="d-flex">
+                <div class="my-auto">
+                  <i class="fas fa-headphones-alt reddish fa-2x"></i>
+                </div>
+                <div class="ml-2">
+                  <p class="m-0">Hotline 24/7:</p>
+                  <p class="reddish mb-0">(+1) 000 123 4567</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex mt-2">
+                <div class="my-auto">
+                  <i class="fas fa-envelope reddish fa-lg"></i>
+                </div>
+                <div class="ml-2">
+                  <p class="m-0">contact@j_level.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-2 my-5 my-lg-0">
+            <h5 class="red-underline mb-3">Stay connected</h5>
+            <p class="footer-desc">jlevel Blog</p>
+            <div class="d-flex">
+              <div>
+                <i class="fab fa-facebook-f reddish"></i>
+              </div>
+              <div class="footer-desc ml-2">Facebook</div>
+            </div>
+
+            <div class="d-flex">
+              <div>
+                <i class="fab fa-twitter reddish"></i>
+              </div>
+              <div class="footer-desc ml-2">Twitter</div>
+            </div>
+
+            <div class="d-flex">
+              <div>
+                <i class="fab fa-instagram reddish"></i>
+              </div>
+              <div class="footer-desc ml-2">Instagram</div>
+            </div>
+
+            <div class="d-flex">
+              <div>
+                <i class="fab fa-whatsapp reddish"></i>
+              </div>
+              <div class="footer-desc ml-2">Whatsapp</div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-2">
+            <h5 class="red-underline mb-3">About</h5>
+            <p class="footer-desc">About jLevel</p>
+            <p class="footer-desc">jLevel for Business</p>
+            <p class="footer-desc">Our Partners</p>
+            <p class="footer-desc">Careers</p>
+            <p class="footer-desc">Contact Us</p>
+          </div>
+
+          <div class="col-sm-12 col-lg-2 my-5 my-lg-0">
+            <h5 class="red-underline mb-3">Sell</h5>
+            <p class="footer-desc">Start selling</p>
+            <p class="footer-desc">Learn to sell</p>
+            <p class="footer-desc">Business sellers</p>
+            <p class="footer-desc">Affiliates</p>
+          </div>
+
+          <div class="col-sm-12 col-lg-2">
+            <h5 class="red-underline mb-3">Support</h5>
+            <p class="footer-desc">FAQ's</p>
+            <p class="footer-desc">My Account</p>
+            <p class="footer-desc">Track Order</p>
+            <p class="footer-desc">Customer Care</p>
+            <p class="footer-desc">Return Policy</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="grey-line"></div>
+
+    <section class="copyright text-light pt-3">
+      <div class="container">
+        <div class="d-block d-sm-flex">
+          <div class="footer-desc">
+            <p>Copyright &copy 2020 jLevel Inc. All Rights Reserved</p>
+          </div>
+          <div class="ml-auto footer-desc pb-2 pb-sm-0">
+            <p>
+              <a href="#" class="text-light">User Agreement</a> |
+              <a href="#" class="text-light">Terms of Use</a> |
+              <a href="#" class="text-light">Privacy Policy</a> |
+              <a href="#" class="text-light">Cookies</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

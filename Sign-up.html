@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/122112d09d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #f7f7ff;
+      }
+
+      .logo {
+        font-weight: 600;
+      }
+
+      .header{
+        box-shadow: 0px 7px 25px 0px rgba(50, 50, 50, 0.58);
+      }
+
+      /* .sign-up-form {
+        background: #f7f7ff;
+      } */
+
+      .sign-up-form p {
+        font-weight: 600;
+      }
+
+      .fields {
+        border: none;
+        border-bottom: 1px solid #6d7985;
+        padding-bottom: 5px;
+      }
+
+      .sign-in {
+        background: #fe5f55;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+
+      .copyright {
+        background: #495867;
+      }
+
+      .footer-desc {
+        font-size: 12px;
+      }
+
+      .sign-up-inner {
+        background: white;
+        height: 450px;
+        border-radius: 20px;
+        box-shadow: 0px 2px 14px 0px rgba(50, 50, 50, 1);
+      }
+
+      .btn-custom {
+        background: linear-gradient(#fe8982, #fe6359);
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .btn-outline-light {
+        border-radius: 20px;
+        font-size: 14px;
+      }
+
+      .right-text {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding:0 10%;
+      }
+
+      @media(max-width:770px){
+        html{
+              height: 650px !important;
+      }
+      }
+
+      @media(max-width:576px){
+        .sign-in {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+      }
+      }
+    </style>
+
+    <title>J-level | Sign Up</title>
+  </head>
+  <body>
+    <section class="header mb-2 py-2">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="mr-2">
+          <img src="imgs/logo.png" class="w-100" alt="logo" />
+        </div>
+        <div>
+          <h1 class="logo m-0">Level</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="sign-up-form text-center mt-5">
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center sign-up-inner"
+        >
+          <div class="col-12 col-sm-6 mb-5 mb-sm-0">
+            <h3>Create Account</h3>
+            <p class="mt-3 mb-4">
+              Enter your personal details to start your journey
+            </p>
+            <form>
+              <div class="row mb-3">
+                <div class="col-6">
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    class="w-100 fields"
+                  />
+                </div>
+                <div class="col-6">
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    class="w-100 fields"
+                  />
+                </div>
+              </div>
+
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="w-100 fields mb-3"
+              />
+              <input type="text" placeholder="Password" class="w-100 fields" />
+
+              <a href="#" class="btn btn-lg text-white btn-custom mt-3"
+                >SIGN UP</a
+              >
+            </form>
+
+            <p class="mb-2 mt-4">or</p>
+
+            <p>Continue with mobile number</p>
+
+            <div>
+              <a href="#" class="text-dark mx-2"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+
+              <a href="#" class="text-dark mx-2">
+                <i class="fab fa-google"></i>
+              </a>
+
+              <a href="#" class="text-dark mx-2">
+                <i class="fab fa-apple"></i>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-sm-6 align-self-center sign-in h-100 text-white"
+          >
+            <div class="right-text">
+              <h2>Welcome Back!</h2>
+              <h6>
+                To stay connected with us please sign in with your personal info
+              </h6>
+              <a href="#" class="btn btn-lg btn-outline-light mt-3">SIGN IN</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="copyright text-light pt-3 fixed-bottom mt-5 mt-sm-0">
+      <div class="container">
+        <div class="d-block d-sm-flex">
+          <div class="footer-desc">
+            <p>Copyright &copy 2020 jLevel Inc. All Rights Reserved</p>
+          </div>
+          <div class="ml-auto footer-desc pb-2 pb-sm-0 d-none d-sm-block">
+            <p>
+              <a href="#" class="text-light">User Agreement</a> |
+              <a href="#" class="text-light">Terms of Use</a> |
+              <a href="#" class="text-light">Privacy Policy</a> |
+              <a href="#" class="text-light">Cookies</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
